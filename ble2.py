@@ -28,9 +28,9 @@ state = {
 # ----------------------------
 # UUID (À PERSONNALISER PAR ELEVE)
 # ----------------------------
-SERVICE_UUID = bluetooth.UUID("177e6db6-33e5-42fa-9e64-093ccd59eca6")
-COLOR_UUID   = bluetooth.UUID("177e6db7-33e5-42fa-9e64-093ccd59eca6")
-BRIGHT_UUID  = bluetooth.UUID("177e6db8-33e5-42fa-9e64-093ccd59eca6")
+SERVICE_UUID = bluetooth.UUID("d0bfbeee-d560-471b-a94c-f136d5540f8e")
+COLOR_UUID   = bluetooth.UUID("d0bfbeee-d561-471b-a94c-f136d5540f8e")
+BRIGHT_UUID  = bluetooth.UUID("d0bfbeee-d562-471b-a94c-f136d5540f8e")
 # ----------------------------
 # BLE initialisation
 # ----------------------------
@@ -104,6 +104,7 @@ start_advertising()
 # ----------------------------
 while True:
     time.sleep(1)
+
 
 
 
